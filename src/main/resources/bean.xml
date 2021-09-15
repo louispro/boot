@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="sakura" class="com.louis.boot.bean.Teacher">
+        <property name="id" value="484"></property>
+        <property name="address" value="北京"></property>
+        <property name="name" value="sakura"></property>
+    </bean>
+
+    <bean id="momonoji" class="com.louis.boot.bean.Teacher">
+        <property name="name" value="桃乃木香奈"></property>
+        <property name="address" value="日本"></property>
+        <property name="id" value="123"></property>
+    </bean>
+</beans>
