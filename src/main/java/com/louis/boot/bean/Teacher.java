@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * @赖小燚
  * @www.louis_lai.com
  */
-@Component  //@Component和ConfigurationProperties配合使用可以将组件注册到到容器中并且自动装配值
+//@Component  //@Component和ConfigurationProperties配合使用可以将组件注册到到容器中并且自动装配值
 @ConfigurationProperties(prefix = "myteacher")
 public class Teacher {
 

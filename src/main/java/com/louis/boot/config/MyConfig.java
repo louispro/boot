@@ -1,5 +1,6 @@
 package com.louis.boot.config;
 
+import com.louis.boot.bean.Person;
 import com.louis.boot.bean.Teacher;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -39,7 +40,7 @@ import org.springframework.context.annotation.ImportResource;
 @Configuration(proxyBeanMethods = true)
 //@ConditionalOnBean(name="satomi")   //当容器中有id为satomi的组件的时候，这个类中的注入到容器中
 @ImportResource("classpath:bean.xml")
-@EnableConfigurationProperties(Teacher.class)   //1.开启car的配置绑定功能 2.把这个组件注册到容器中 3.开这个这个之后就可以实现自动装配
+@EnableConfigurationProperties({Person.class,Teacher.class})   //1.开启car的配置绑定功能 2.把这个组件注册到容器中 3.开这个这个之后就可以实现自动装配
 public class MyConfig {
 
     /**

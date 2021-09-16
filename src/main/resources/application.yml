@@ -1,0 +1,41 @@
+#application.properties的优先级高于application.yml
+person:
+  username: satomi
+  boss: false
+  birth: 1985/3/12
+  age: 31
+  interest:
+    - 工作
+    - 历史
+    - 做爱
+  animal:
+    - 猫
+    - 狗
+    - 兔子
+  score:
+    english: 80
+    chinese: 75
+    math: 99
+  salarys:
+    - 10000
+    - 5000
+  pet:
+    name: sakura
+    weight: 45.2
+  allpets:
+    ill:
+      - name: 小明
+        weight: 38.1
+      - name: 小米
+        weight: 43.2
+    health:
+      - name: 大虫
+        weight: 52.1
+      - name: 大虎
+        weight: 49.7
+
+
+
+
+
+
