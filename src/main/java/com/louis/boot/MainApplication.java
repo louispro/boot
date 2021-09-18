@@ -31,5 +31,6 @@ public class MainApplication {
 //        System.out.println("是否是单实例："+String.valueOf(teacher2==teacher1));
 //        Teacher sakura = run.getBean("sakura",Teacher.class);
 //        System.out.println("sakura："+sakura);
+        System.out.println("启动成功");
     }
 }

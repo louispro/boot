@@ -34,7 +34,11 @@ person:
       - name: 大虎
         weight: 49.7
 
-
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true #开启rest风格的请求
 
 
 

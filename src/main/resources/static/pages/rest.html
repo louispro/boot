@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="http://localhost:8888/">
+    <meta charset="UTF-8">
+    <title>rest请求</title>
+</head>
+<body>
+<form action="teacher" method="post">
+    <input type="hidden" name="_method" value="get"/>
+  <input type="submit" value="获得老师"/>
+</form>
+
+<form action="teacher" method="post">
+  <input type="hidden" name="_method" value="delete"/>
+  <input type="submit" value="删除老师"/>
+</form>
+
+<form action="teacher" method="post">
+    <input type="hidden" name="_method" value="post"/>
+  <input type="submit" value="添加老师"/>
+</form>
+
+<form action="teacher" method="post">
+    <input type="hidden" name="_method" value="update"/>
+  <input type="submit" value="修改老师"/>
+</form>
+</body>
+</html>
