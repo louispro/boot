@@ -39,6 +39,9 @@ spring:
     hiddenmethod:
       filter:
         enabled: true #开启rest风格的请求
+    contentnegotiation:
+      favor-parameter: true #开启基于请求参数的内容协商
+
 
 
 

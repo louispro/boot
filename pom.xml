@@ -55,6 +55,17 @@
       <artifactId>jquery</artifactId>
       <version>3.5.1</version>
     </dependency>
+    <!--json场景-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-json</artifactId>
+    </dependency>
+
+    <!--引入xml依赖-->
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-xml</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
@@ -62,6 +73,7 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>2.3.4.RELEASE</version>
         <configuration>
           <mainClass>com.louis.boot.MainApplication</mainClass>
           <!--打包的时候排除自定义类绑定配置提示-->
